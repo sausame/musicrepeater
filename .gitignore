@@ -11,6 +11,9 @@
 # generated files
 bin/
 gen/
+obj/
+libs/
+proguard/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -18,3 +21,7 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+
+.svn
+.settings
+.externalToolBuilders/

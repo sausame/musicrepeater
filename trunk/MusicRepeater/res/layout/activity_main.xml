@@ -1,0 +1,79 @@
+
+   
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+	android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Click a start button to select a music track" android:id="@+id/textView1"/>
+
+	<Button
+	    android:id="@+id/startButton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Start" />
+
+	<Button
+	    android:id="@+id/pauseButton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Pause" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Volume"/>
+	
+	<SeekBar
+	    android:id="@+id/seekBar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+	
+	<TextView
+	    android:id="@+id/positionTextView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="position"/>
+	
+	<ProgressBar
+	    android:id="@+id/progressBar"
+	    style="?android:attr/progressBarStyleHorizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+	
+	<SeekBar
+	    android:id="@+id/seekBar3"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Record Volume"/>
+	
+	<SeekBar
+	    android:id="@+id/seekBar1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Threshold Volume"/>
+	
+	<SeekBar
+	    android:id="@+id/seekBar2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+	 
+</LinearLayout>
+
